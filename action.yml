@@ -5,6 +5,7 @@ inputs:
   var:
     description: var
     required: true
+    default: vvv
 runs:
   using: composite
   steps:
