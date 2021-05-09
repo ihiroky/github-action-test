@@ -1,0 +1,12 @@
+name: Github Action test
+author: ihiroky
+description: Github Action test
+inputs:
+  var:
+    description: var
+    required: true
+runs:
+  using: composite
+  steps:
+    - run: echo $INPUT_VAR
+      shell: bash
