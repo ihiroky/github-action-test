@@ -14,4 +14,4 @@ jobs:
       - name: Test
         uses: ihiroky/github-action-test@main
         with:
-          bar: aaaaa
+          var: aaaaa
